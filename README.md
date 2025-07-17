@@ -229,7 +229,7 @@ public class UserServiceImpl implements UserService {
 ### Maven Steps
 
 ```powershell
-cd "C:\Users\HP\telicode\udemy\spring first"
+cd "C:\Users\username\code folder\udemy\spring first"
 mvn install
 cd target
 java -jar spring-first-0.0.1-SNAPSHOT.jar
@@ -247,7 +247,7 @@ mvn install
 ### Gradle Steps
 
 ```powershell
-cd "C:\Users\HP\telicode\udemy\spring first"
+cd "C:\Users\username\code folder\udemy\spring first"
 ./gradlew bootJar
 cd build/libs
 java -jar spring-first-0.0.1-SNAPSHOT.jar
