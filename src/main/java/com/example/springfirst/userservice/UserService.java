@@ -7,6 +7,6 @@ import com.example.springfirst.ui.model.update.UpdateUserDetails;
 public interface UserService {
      UserRest createUser(UserDetails userDetails);
      UserRest updateUser(String userId, UpdateUserDetails updateUserDetails);
-     void deleteUser(String userId);  // changed from Void to void
-     UserRest getUser(String userId); // changed GetUser → getUser
+     void deleteUser(String userId);
+     UserRest getUser(String userId);
 }
